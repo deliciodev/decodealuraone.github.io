@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*  font-family: "Roboto", sans-serif;
+    font-family: "Protest Strike", sans-serif;
+    font-family: "Protest Guerrilla", sans-serif;
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.titulo {
+  background-color: rgb(43, 226, 220);
+  font-family: "Protest Guerrilla", sans-serif;
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+
+.entrada-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 35%;
+  font-family: "Roboto", sans-serif;
+}
+
+.entrada-container p {
+  border: 1px solid;
+  font-size: 11px;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.entrada {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  gap: 1rem;
+}
+
+.text-area {
+  margin-top: 2rem;
+  width: 80%;
+  height: 30%;
+}
+
+.text-area {
+  border-radius: 3px;
+  border: none;
+}
+
+.btns {
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btns a {
+  text-decoration: none;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 13px;
+  color: black;
+}
+
+.btn-cod {
+  background-color: #3384f5;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.btn-decod {
+  background-color: #3384f5;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.saida {
+  background-color: rgb(85, 138, 120);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 30%;
+  border-radius: 2px;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.saida p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 2px;
+  width: 80%;
+  height: 30%;
+}
+.btn-copy {
+  background-color: #3384f5;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.btns :hover {
+  background-color: #0168f8;
+  transition: 0.3s;
+}
